@@ -5,20 +5,20 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", "7452578"))
-API_HASH = getenv("API_HASH", "061d67ee8eed9368c5cadabb4aa21efc")
-BOT_TOKEN = getenv("BOT_TOKEN", "5385370603:AAHjSbZFL1OLl_uOm3v8lS0iKSYhRJS_bKs")
-SESSION_NAME = getenv("SESSION_NAME", "AgAGFRW8AN9biZhAIB_X7rubbTCwNtc48oa-geXlaVsQbV9M1emAEV_iGPw_W-lNP1HGbOuQgF9NAUIxlp8-6rgN16-7Upuhst2wCxewyx0VP7Cxb5k_9EXap6_xeU2v4So9RZMt95XYxhGc4hWO_ikd9P46iHLMjXW8GjQAnGvY-bIrM6XqIXF1yeC3vixEa8knOHGkedZU3FYyLhEILy8TV6eH5jOGvsyw5o7xFElb2zZId_vlYO--B3xSWIMUR6zyH8wozehe9tIn0jZptYjY1rqWOMoYS9wtqvBThVazL60nrgL-KdikJC9beDJLLR0C-wzuAtARPCZ-JK6oG-gVAAAAAUM3evYA")
+API_ID = int(getenv("API_ID", "26077415"))
+API_HASH = getenv("API_HASH", "d38231af75187c78cf3db151b4a1eaf4")
+BOT_TOKEN = getenv("BOT_TOKEN", "6178372880:AAH8X8gFewq9vUDlH12lBDoMOo-CTdAHRzU")
+SESSION_NAME = getenv("SESSION_NAME", "1BJWap1wBu332J65DzKaW2TLY2brd2INq15TnFkqG3-FHesrslyHdLQroImshVY6YEeeO7Pn1qge7bDbE71oPUCT4iDIkxfyhQ30bC0c5jXd2SpIxo9r0WceKQHtfY57puMxs6BXpO3gEfGesZgqmCDyVCyZbvmvNCjtjWja68N6-4rpaov-gId8GjjgItugCJjprjy8oi99HQMf49IjuKgfYW1KAOblmpaDPhMtVmDRWIj2ToZmJ5AD12ptsKwtRxYeQKm5hcVaBQSLyVkhJui4vHoHCMcGWtCLmxEJkUGEYXb-YF4LTJPmc0IPjS50tBl3ZunSH56YnBqU4OGexROgUQl4mE68=")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME", "rr8r9")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "adel__hamed_1")
 ALIVE_NAME = getenv("ALIVE_NAME", "song")
-BOT_USERNAME = getenv("BOT_USERNAME", "W7MBoT")
+BOT_USERNAME = getenv("BOT_USERNAME", "DOLA_MUSIC_BOT")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/STKR2/2004")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "rr8r9")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xl444")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "d3m_dola")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "dolaadelbot")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
